@@ -719,9 +719,9 @@ ul {
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
-    flex-basis: calc((100%-60px)/3);
+    flex-basis: calc((100%-60px))/3;
     max-width: 370px;
-}
+    }
 
 .work-examples-border:hover,
 .work-examples-border:focus {
@@ -994,6 +994,12 @@ ul {
 }
 
 .btn {
+    
+    color: #FFFFFF;
+    font-size: var(--normal-font-size);
+    font-weight: var(--bold-font);
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     background-color: #2196F3;
     width: 200px;
     height: 50px;
@@ -1009,13 +1015,8 @@ ul {
 
 }
 
-.sign-p {
-    color: #FFFFFF;
-    font-size: var(--normal-font-size);
-    font-weight: var(--bold-font);
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    margin-right: 10px;
+.icon-send {
+    margin-left: 10px;
 }
 
 .subscribe {
@@ -1121,7 +1122,7 @@ ul {
 .link-conditions {
     color: #2196F3;
     font-weight: var(--normal-font);
-    font-size: var(---min-font-size);
+    font-size: var(--min-font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
 
