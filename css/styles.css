@@ -890,8 +890,8 @@ ul {
 
 .close-backdrop {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 8px;
+    top: 8px;
     padding: 0;
     background-color: #FFFFFF;
     border: none;
@@ -1044,6 +1044,20 @@ ul {
     padding-bottom: 15px;
     padding-left: 16px;
     border-radius: 4px;
+    font-size: var(--normal-font-size);
+    line-height: 1.25;
+    font-weight: var(--normal-font);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.input-email::placeholder {
+    font-size: var(--normal-font-size);
+    line-height: 1.25;
+    font-weight: var(--normal-font);
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .data-title {
@@ -1200,8 +1214,8 @@ ul {
     height: 15px;
     display: inline-block;
     border-radius: 2px;
-    border: 0.2px solid #FFFFFF;
-    background-color: #2196F3;
+    border: 0.2px solid #212121;
+    background-color: #FFFFFF;
     margin-right: 7px;
 
 }
@@ -1210,4 +1224,5 @@ ul {
     background-image: url(../images/icon-check.svg);
     background-color: #2196F3;
     background-size: contain;
+    border: 0.2px solid #2196F3;
 }
