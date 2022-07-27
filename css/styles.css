@@ -1104,6 +1104,7 @@ ul {
 .field-form textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    
             
 }
 
@@ -1192,9 +1193,14 @@ ul {
 .field-form:focus input,
 .field-form:focus .comment {
     border: 1px solid #2196F3;
-    
+       
 }
 
+input:focus,
+.comment:focus {
+    border: 1px solid #2196F3;
+    outline: none;
+}
 
 .person-black,
 .phone-black,
