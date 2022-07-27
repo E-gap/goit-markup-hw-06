@@ -719,7 +719,7 @@ ul {
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
-    flex-basis: calc((100%-60px))/3;
+    flex-basis: calc((100% - 60px)/3);
     max-width: 370px;
     }
 
@@ -727,6 +727,7 @@ ul {
 .work-examples-border:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .work-examples-name {
     padding-left: 24px;
@@ -937,6 +938,11 @@ ul {
     transform: translateY(0);
 }
 
+.work-examples-link:hover .overlay-p,
+.work-examples-link:focus .overlay-p {
+    transform: translateY(0);
+}
+
 .menu-item-email,
 .menu-link,
 .menu-item,
@@ -1091,12 +1097,14 @@ ul {
 .field-form input {
     height: 40px;
     padding-left: 40px;
+    
 }
 
 .field-form input,
 .field-form textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+            
 }
 
 
@@ -1184,6 +1192,7 @@ ul {
 .field-form:focus input,
 .field-form:focus .comment {
     border: 1px solid #2196F3;
+    
 }
 
 
